@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<p>Expected:</p>
+<ol>
+  <li>Visually: There should be no box drawing between the two sets of asterisks below.</li>
+  <li>DOM inspection: the svg element should have an attribute named 'viewBox' (capital b), not 'viewbox'</li>
+</ol>
+<p>****</p>
+{{my-svg}}
+<p>****</p>
 {{outlet}}
